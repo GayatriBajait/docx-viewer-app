@@ -1,23 +1,23 @@
 {
-  "name": "docx-viewer-wopi",
+  "name": "frontend",
   "version": "1.0.0",
-  "description": "A web application that opens DOCX files using WOPI and Microsoft Office Online",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
-    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm run preview\"",
-    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "docx",
-    "wopi",
-    "office",
-    "react",
-    "nodejs"
-  ],
+  "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "@vitejs/plugin-react": "^5.1.2",
+    "vite": "^7.3.1"
   }
 }
