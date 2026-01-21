@@ -1,0 +1,16 @@
+Welcome to the DOCX Viewer!
+
+This is a sample document to test the WOPI integration.
+
+Features demonstrated:
+• Secure document access through WOPI protocol
+• Office Online integration
+• Pre-installed Add-in support
+• Token-based authentication
+
+To use this application:
+1. Open this file in Microsoft Word
+2. Save it as "sample.docx" in the backend/documents/ folder
+3. Click the "Open Document" button in the web application
+
+The document will then load properly in the Office Online viewer.
